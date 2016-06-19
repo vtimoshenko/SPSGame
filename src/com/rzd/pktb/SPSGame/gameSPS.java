@@ -9,26 +9,32 @@ public class gameSPS {
     /**
      * Камень
      */
+    @SPSStep
     public static int STONE = 0;
     /**
      * Бумага
      */
+    @SPSStep
     public static int PAPER = 1;
     /**
      * Ножницы
      */
+    @SPSStep
     public static int SCISSORS = 2;
     /**
      * Выиграл
      */
+    @SPSResult
     public static int WON = 1;
     /**
      * Ничья
      */
+    @SPSResult
     public static int NONE = 0;
     /**
      * Проиграл
      */
+    @SPSResult
     public static int LOSS = -1;
     /**
      * Матрица определения победителя
